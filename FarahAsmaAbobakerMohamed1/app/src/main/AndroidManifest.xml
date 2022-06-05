@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.farahasmaabobakermohamed">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FarahAsmaAbobakerMohamed">
+        <activity
+            android:name=".activite.Update_profile_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.ChoisirActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.Pay_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.AjoutProduitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.PayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.ViewAllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.paiementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.AddAdresseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.AdresseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.ShowAllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.OnboardingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.registration_activity"
+            android:exported="false" />
+        <activity
+            android:name=".activite.login_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_qpABTQ0z88SFzB" />
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FAMA</string>
+
+    <string name="first_slide">Choose your product</string>
+    <string name="second_slide">fast delivery</string>
+    <string name="third_slide">Good service</string>
+    <string name="description">Bonjour monsieur,madame,gamin,gamine</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="title_acheter">Acheter</string>
+    <string name="title_seances">Seance</string>
+    <string name="title_profile">Pour vous</string>
+    <string name="title_recherche">Rechercher</string>
+    <string name="title_panier">Panier</string>
+</resources>
